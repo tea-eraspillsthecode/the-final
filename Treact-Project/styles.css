@@ -214,6 +214,10 @@ FEATURES
 
 */
 
+#features {
+    padding: 0 24px;
+}
+
 .row__column {
     display: flex;
     flex-direction: column;
@@ -293,7 +297,7 @@ QUALITY
 */
 
 #quality {
-    padding: 36px 0;
+    padding: 36px 24px;
 }
 
 .quality__description {
@@ -383,5 +387,71 @@ STEPS
 }
 
 
+/* 
 
+VALUES
+
+*/
+
+#values {
+    padding: 0 24px;
+}
+
+.values__description {
+    width: 50%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.value__img--wrapper {
+    width: 50%;
+    margin-left: 24px;
+}
+
+.value__img {
+    width: 100%;
+}
+
+.values__list {
+    display: flex;
+    padding: 32px 0 48px 0;
+}
+
+.value__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.value__name {
+    padding: 0 12px;
+}
+
+.value__para {
+    color: #7c8ba1;
+}
+
+.value {
+    margin-right: 24px;
+    width: 50%;
+}
+
+.value__icon {
+    border-radius: 50%;
+    padding: 6px;
+    color: #242424c7;
+}
+
+.value__icon--green {
+    background-color: #9ae6b4;
+}
+
+.value__icon--red {
+    background-color: #feb2b2;
+}
+
+.value__name {
+    color: #243e63;
+}
 
