@@ -232,7 +232,7 @@ FEATURES
 
 .section__tag {
     color: #6415ff;
-    letter-spacing: .15em;
+    letter-spacing: .10em;
 }
 
 .section__title {
@@ -335,7 +335,7 @@ STEPS
 
 .steps__description {
     width: 50%;
-    max-width: 360px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     margin-left: 24px;
@@ -455,3 +455,267 @@ VALUES
     color: #243e63;
 }
 
+/* 
+
+PRICING
+
+*/
+
+#plans {
+    padding: 0 24px;
+}
+
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan__description {
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+}
+
+.plan__description .section__title {
+    letter-spacing: 0.60px;
+}
+
+.plan__intro {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.plans {
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    border: 2px solid #a0aec057;
+    border-radius: 10px;
+    padding-top: 24px;
+    text-align: center;
+    margin-left: 24px;
+    position: relative;
+}
+
+.plan-two {
+    color: white;
+    background: linear-gradient(
+    135deg,
+   rgb(76, 81, 191) 0%, 
+   rgb(102, 126, 234) 100%);
+}
+
+.plan-two .plan__period,
+.plan-two .plan__list-item {
+    color: white;
+}
+
+.plan__stripe {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -1.5px;
+    right: 0;
+}
+
+.plan__stripe-one {
+    background: linear-gradient(
+        115deg,
+        rgb(56, 178, 172) 0%,
+        rgb(129,230,217) 100%
+    );
+}
+
+.plan__stripe-three {
+    background: linear-gradient(
+        115deg,
+        rgb(245, 101, 101) 0%, 
+        rgb(254, 178, 178) 100%);
+}
+
+.plan__type {
+    margin: 24px 0;
+}
+
+hr {
+    opacity: .30;
+    font-weight: 900;
+}
+
+.plan__title {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.plan__price {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 18px 0;
+}
+
+.plan__period {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .10em;
+    color: #697484b6;
+}
+
+.plan__list {
+    margin: 24px 0;
+}
+
+.plan__list-type {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.plan__list-item {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+    color: #697484cf;
+}
+
+.plan__button {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn__plan {
+    font-weight: 600;
+}
+
+.btn__plan-one {
+    background: linear-gradient(
+        115deg,
+        rgb(56, 178, 172) 0%,
+        rgb(129,230,217) 100%
+    );
+}
+
+.btn__plan-two {
+    color: #6415ff;
+    background-color: white;
+}
+
+.btn__plan-three {
+    background: linear-gradient(
+        115deg,
+        rgb(245, 101, 101) 0%, 
+        rgb(254, 178, 178) 100%
+     );
+}
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+#testimonials {
+    padding: 0 24px;
+}
+
+.testimonial__img--wrapper {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.testimonial__img {
+    width: 100%;
+}
+
+.testimonial__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial {
+    margin-top: 40px;
+}
+
+.testimonial__rating {
+    color: #f6ad55;
+}
+
+.testimonial__title {
+    margin-top: 16px;
+    color: #4a5568;
+}
+
+.testimonial__para {
+    margin: 16px 0 32px 0;
+    color: #4a5568;
+}
+
+.testimonial__profile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.testimonial__profile {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__photo--wrapper {
+    display: flex;
+}
+
+.testimonial__photo {
+    width: 100%;
+    max-width: 70px;
+    height: 100%;
+    max-height: 70px;
+    border-radius: 50%;
+}
+
+.testimonial__info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px;
+}
+
+.testimonial__name {
+    color: #4a5568;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.testimonial__role {
+    color: #7c8ba1;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.testimonial__button {
+    border: 2px solid #A0AEC0;
+    border: none;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 16px;
+    margin: 0 8px;
+    color: #6415ff;
+    background-color: #edf2f7;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.testimonial__button:hover {
+    background-color: rgba(229, 231, 235);
+}
