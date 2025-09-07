@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text--purple {
+    color: #6415ff;
+}
+
+.btn {
+    border: none;
+    background-color: #6415ff;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 80px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 
+
+NAVIGATION BAR 
+
+*/
+
+nav {
+    height: 80px;
+    margin: 32px;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__logo--img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav__logo--title {
+    padding: 0 16px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #243e63;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link--anchor {
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #243e63;
+}
+
+.nav__link--anchor-primary {
+    padding: 12px 32px;
+    font-size: 16px;
+    background-color: #6415ff;
+    color: white;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.nav__link--anchor-primary:hover {
+    background-color: rgba(80, 17, 204);
+}
+
+.nav__link--anchor-login {
+    margin: 0 16px 0 48px;
+}
+
+/* 
+
+LANDING
+
+*/
+
+header {
+    width: 100%;
+    height: 100%;
+    max-height: calc(100vh - 80px);
+    padding: 0 24px;
+}
+
+.header__description {
+    width: 40%;
+    padding: 95px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title {
+    font-size: 45px;
+    margin-bottom: 24px;
+    color: #242424;
+}
+
+.header__para {
+    font-size: 18px;
+    margin-bottom: 32px;
+    text-align: left;
+    color: #242424;
+}
+
+.header__email {
+    display: flex;
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+}
+
+input {
+    border: 2px solid #a0aec045;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 18px 24px;
+    width: 60%;
+    opacity: 0.70;
+}
+
+.header__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    margin: 8px;
+    transition: all 300ms ease;
+}
+
+.header__btn:hover {
+    background-color: rgba(80, 17, 204);
+}
+
+.header__img--wrapper {
+    width: 60%;
+    margin-left: 24px;
+    display: flex;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.customers__title {
+    font-weight: 550;
+    color: #A0AEC0;
+    margin-top: 80px;
+    font-size: 12px;
+}
+
+.customer__img--wrapper {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+}
+
+.customers__img {
+    width: 80%;
+    height: auto;
+    opacity: 0.5;
+    margin-top: 16px;
+}
+
+/* 
+
+FEATURES
+
+*/
+
+.row__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.features__description {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.section__tag {
+    color: #6415ff;
+    letter-spacing: .15em;
+}
+
+.section__title {
+    font-size: 45px;
+    color: #243e63;
+    margin: 24px 0;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+.section__para {
+    font-size: 16px;
+    color: #7c8ba1;
+    line-height: 1.5;
+}
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.feature {
+    display: flex;
+    width: calc(100% / 3);
+    padding: 24px;
+}
+
+.feature__info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.feature__img-wrapper {
+    width: 20%;
+}
+
+.feature__img {
+    border: 2px solid #a0aec03c;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+.feature__title {
+    font-size: 24px;
+    color: #243e63;
+}
+
+.feature__para {
+    line-height: 2.0;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #7c8ba1;
+}
+
+
+
+
+
+
+
+
