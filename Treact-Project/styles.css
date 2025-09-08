@@ -27,7 +27,7 @@ a {
     border: none;
     background-color: #6415ff;
     color: white;
-    padding: 16px 20px;
+    padding: 16px 24px;
     border-radius: 150px;
     font-weight: 500;
     font-size: 14px;
@@ -64,6 +64,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .nav__logo {
@@ -73,13 +74,12 @@ nav {
 }
 
 .nav__logo--img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
 }
 
 .nav__logo--title {
     padding: 0 16px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 900;
     color: #243e63;
 }
@@ -91,15 +91,15 @@ nav {
 }
 
 .nav__link--anchor {
-    margin: 0 20px;
-    font-size: 16px;
+    margin: 0 24px;
+    font-size: 15px;
     font-weight: 550;
     color: #243e63;
 }
 
 .nav__link--anchor-primary {
-    padding: 12px 32px;
-    font-size: 16px;
+    padding: 12px 24px;
+    font-size: 15px;
     background-color: #6415ff;
     color: white;
     border-radius: 60px;
@@ -112,7 +112,7 @@ nav {
 }
 
 .nav__link--anchor-login {
-    margin: 0 16px 0 48px;
+    margin: 0 18px 0 48px;
 }
 
 /* 
@@ -718,4 +718,79 @@ TESTIMONIALS
 
 .testimonial__button:hover {
     background-color: rgba(229, 231, 235);
+}
+
+/* 
+
+START
+
+*/
+
+#start {
+    padding: 0 24px;
+}
+
+#start .row {
+    position: relative;
+    overflow: hidden;
+}
+
+.start__block {
+    width: 100%;
+    height: 280px;
+    background-color: #6415ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start__items {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.start__title,
+.start__buttons {
+    width: 50%;
+}
+
+.start__title {
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__start,
+.btn__contact {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 24px 28px;
+    transition: all 300ms ease;
+}
+
+.btn__start {
+    background-color: #f56565;
+    margin-right: 24px;
+}
+
+.btn__start:hover {
+    background-color: rgba(229, 62, 62);
+}
+
+.btn__contact {
+    border: 1px solid white;
+}
+
+.btn__contact:hover {
+    background-color: white;
+    color: #6415ff;
 }
