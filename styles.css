@@ -79,6 +79,7 @@ NAVIGATION BAR
 
 nav {
     height: 80px;
+    display: flex;
     padding-top: 32px;
 }
 
@@ -144,6 +145,7 @@ LANDING
 header {
     width: 100%;
     height: 100%;
+    padding-top: 32px;
 }
 
 .header__description {
@@ -1418,6 +1420,5 @@ MOBILE RESPONSIVENESS
     .footer__info {
         text-align: center;
     }
-
 
 }
