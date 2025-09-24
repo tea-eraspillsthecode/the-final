@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/9959d4d55d.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
     <title>Treact Project</title>
   </head>
 
@@ -21,19 +22,37 @@
           </div>
           <ul class="nav__links">
             <li class="nav__link">
-              <a class="nav__link--anchor link__hover-effect link__hover-effect--purple" href="">About</a>
+              <a
+                class="nav__link--anchor link__hover-effect link__hover-effect--purple"
+                href=""
+                >About</a
+              >
             </li>
             <li class="nav__link">
-              <a class="nav__link--anchor link__hover-effect link__hover-effect--purple" href="">Blog</a>
+              <a
+                class="nav__link--anchor link__hover-effect link__hover-effect--purple"
+                href=""
+                >Blog</a
+              >
             </li>
             <li class="nav__link">
-              <a class="nav__link--anchor link__hover-effect link__hover-effect--purple" href="">Pricing</a>
+              <a
+                class="nav__link--anchor link__hover-effect link__hover-effect--purple"
+                href="#pricing"
+                >Pricing</a
+              >
             </li>
             <li class="nav__link">
-              <a class="nav__link--anchor link__hover-effect link__hover-effect--purple" href="">Contact Us</a>
+              <a
+                class="nav__link--anchor link__hover-effect link__hover-effect--purple"
+                href=""
+                >Contact Us</a
+              >
             </li>
             <li class="nav__link">
-              <a class="nav__link--anchor nav__link--anchor-login link__hover-effect link__hover-effect--purple" href=""
+              <a
+                class="nav__link--anchor nav__link--anchor-login link__hover-effect link__hover-effect--purple"
+                href=""
                 >Login</a
               >
             </li>
@@ -43,6 +62,34 @@
               >
             </li>
           </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list-item">
+                <a class="menu__link link__hover-effect link__hover-effect--purple" onclick="closeMenu()" href="">About</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__link link__hover-effect link__hover-effect--purple" onclick="closeMenu()" href="">Blog</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__link link__hover-effect link__hover-effect--purple" onclick="closeMenu()" href="#pricing">Pricing</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__link link__hover-effect link__hover-effect--purple" onclick="closeMenu()" href="">Contact Us</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__link link__hover-effect link__hover-effect--purple" onclick="closeMenu()" href="">Login</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__link menu__link--primary" onclick="closeMenu()" href="">Sign up</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -60,7 +107,11 @@
               </p>
               <form class="header__contact--form">
                 <div class="contact--wrapper">
-                  <input class="header__email--input" type="email" placeholder="Your E-mail Address"/>
+                  <input
+                    class="header__email--input"
+                    type="email"
+                    placeholder="Your E-mail Address"
+                  />
                   <button class="btn header__btn">Get Started</button>
                 </div>
               </form>
@@ -334,7 +385,7 @@
         </div>
       </section>
 
-      <section id="plans">
+      <section id="pricing">
         <div class="container">
           <div class="row row__column">
             <div class="plan__description">
@@ -510,16 +561,32 @@
               <div class="footer__title">MAIN</div>
               <ul class="footer__links">
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Blog</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Blog</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">FAQs</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >FAQs</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Support</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Support</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">About Us</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >About Us</a
+                  >
                 </li>
               </ul>
             </div>
@@ -527,16 +594,32 @@
               <div class="footer__title">PRODUCT</div>
               <ul class="footer__links">
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Log In</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Log In</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Personal</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Personal</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Business</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Business</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Team</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Team</a
+                  >
                 </li>
               </ul>
             </div>
@@ -544,16 +627,32 @@
               <div class="footer__title">PRESS</div>
               <ul class="footer__links">
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Logos</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Logos</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Events</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Events</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Stories</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Stories</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Office</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Office</a
+                  >
                 </li>
               </ul>
             </div>
@@ -561,16 +660,32 @@
               <div class="footer__title">TEAM</div>
               <ul class="footer__links">
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Career</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Career</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Founders</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Founders</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Culture</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Culture</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Onboarding</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Onboarding</a
+                  >
                 </li>
               </ul>
             </div>
@@ -578,16 +693,32 @@
               <div class="footer__title">LEGAL</div>
               <ul class="footer__links">
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">GDPR</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >GDPR</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Privacy Policy</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Privacy Policy</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Terms of Service</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Terms of Service</a
+                  >
                 </li>
                 <li class="footer__link">
-                  <a class="footer__link--anchor link__hover-effect link__hover-effect--white" href="">Disclaimer</a>
+                  <a
+                    class="footer__link--anchor link__hover-effect link__hover-effect--white"
+                    href=""
+                    >Disclaimer</a
+                  >
                 </li>
               </ul>
             </div>
@@ -597,9 +728,10 @@
             <a href="#">
               <div class="footer__logo">
                 <img
-                class="footer__logo--img"
-                src="./assets/logo-light.svg"
-                alt=""/>
+                  class="footer__logo--img"
+                  src="./assets/logo-light.svg"
+                  alt=""
+                />
                 <div class="footer__logo--title">Treact Inc.</div>
               </div>
             </a>
